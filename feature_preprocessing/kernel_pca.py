@@ -59,3 +59,4 @@ class SKLKernelPCA(FeaturePreprocessor):
         coef0_condition = InCondition(coef0, kernel, ["poly", "sigmoid"])
         gamma_condition = InCondition(gamma, kernel, ["poly", "rbf"])
         cs.add_conditions([degree_depends_on_poly, coef0_condition, gamma_condition])
+        return cs
