@@ -66,3 +66,4 @@ class SKLRandomTreesEmbedding(FeaturePreprocessor):
                 bootstrap,
             ]
         )
+        return cs
