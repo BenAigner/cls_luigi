@@ -56,3 +56,4 @@ class SKLFeatureAgglomeration(FeaturePreprocessor):
             ForbiddenEqualsClause(linkage, "ward"),
         )
         cs.add_forbidden_clause(affinity_and_linkage)
+        return cs
