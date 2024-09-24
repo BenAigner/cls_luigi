@@ -46,3 +46,4 @@ class SKLFastICA(FeaturePreprocessor):
         cs.add([n_components, algorithm, whiten, fun])
 
         cs.add_condition(EqualsCondition(n_components, whiten, "True"))
+        return cs
