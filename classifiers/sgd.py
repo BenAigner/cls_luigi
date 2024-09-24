@@ -106,3 +106,4 @@ class SKLSGD(Classifier):
         cs.add_conditions(
             [elasticnet, epsilon_condition, power_t_condition, eta0_in_inv_con]
         )
+        return cs
