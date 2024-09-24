@@ -43,3 +43,4 @@ class SKLLinearDiscriminantAnalysis(Classifier):
         cs.add([shrinkage, shrinkage_factor, tol])
 
         cs.add_condition(EqualsCondition(shrinkage_factor, shrinkage, "manual"))
+        return cs
