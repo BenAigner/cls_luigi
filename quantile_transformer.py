@@ -36,3 +36,4 @@ class SKLQuantileTransformer(Scaler):
             "output_distribution", ["normal", "uniform"]
         )
         cs.add((n_quantiles, output_distribution))
+        return cs
