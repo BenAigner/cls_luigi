@@ -70,3 +70,4 @@ class SKLNystroem(FeaturePreprocessor):
             gamma_kernels.append("chi2")
         gamma_condition = InCondition(gamma, kernel, gamma_kernels)
         cs.add_conditions([degree_depends_on_poly, coef0_condition, gamma_condition])
+        return cs
