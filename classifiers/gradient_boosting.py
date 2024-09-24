@@ -104,3 +104,4 @@ class SKLGradientBoosting(Classifier):
         )
 
         cs.add_conditions([n_iter_no_change_cond, validation_fraction_cond])
+        return cs
