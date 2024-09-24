@@ -24,3 +24,4 @@ class SKLGaussianNaiveBayes(Classifier):
             self, name="Gaussian Naive Bayes classifier", seed=123
     ):
         cs = ConfigurationSpace(name=name, seed=seed)
+        return cs
