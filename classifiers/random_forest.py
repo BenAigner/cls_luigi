@@ -89,3 +89,4 @@ class SKLRandomForest(Classifier):
                 min_impurity_decrease,
             ]
         )
+        return cs
