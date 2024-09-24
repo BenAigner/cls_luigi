@@ -41,3 +41,4 @@ class SKLKNearestNeighbors(Classifier):
         )
         p = CategoricalHyperparameter(name="p", choices=[1, 2], default_value=2)
         cs.add([n_neighbors, weights, p])
+        return cs
