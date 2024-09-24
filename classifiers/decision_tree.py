@@ -80,3 +80,4 @@ class SKLDecisionTree(Classifier):
                 min_impurity_decrease,
             ]
         )
+        return cs
