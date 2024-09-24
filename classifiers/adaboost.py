@@ -54,3 +54,4 @@ class SKLAdaBoost(Classifier):
         )
 
         cs.add([n_estimators, learning_rate, algorithm, max_depth])
+        return cs
