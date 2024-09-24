@@ -89,3 +89,4 @@ class SKLExtraTrees(Classifier):
                 bootstrap,
             ]
         )
+        return cs
