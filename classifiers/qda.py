@@ -29,3 +29,4 @@ class SKLQuadraticDiscriminantAnalysis(Classifier):
         reg_param = UniformFloatHyperparameter("reg_param", 0.0, 1.0, default_value=0.0)
         cs = ConfigurationSpace(name=name, seed=seed)
         cs.add_hyperparameter(reg_param)
+        return cs
