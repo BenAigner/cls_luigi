@@ -53,3 +53,4 @@ class SKLPassiveAggressive(Classifier):
 
         cs = ConfigurationSpace(name=name, seed=seed)
         cs.add([loss, fit_intercept, tol, C, average])
+        return cs
