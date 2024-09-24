@@ -38,3 +38,4 @@ class SKLPCA(FeaturePreprocessor):
         )
         cs = ConfigurationSpace(name=name, seed=seed)
         cs.add([keep_variance, whiten])
+        return cs
