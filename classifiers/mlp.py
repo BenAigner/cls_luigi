@@ -136,3 +136,4 @@ class SKLMultiLayerPerceptron(Classifier):
         #   InCondition(n_iter_no_change, early_stopping, ["valid", "train"])
         # tol_cond = InCondition(n_iter_no_change, early_stopping, ["valid", "train"])
         # cs.add_conditions([n_iter_no_change_cond, tol_cond])
+        return cs
