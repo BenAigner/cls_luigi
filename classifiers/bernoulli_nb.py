@@ -45,3 +45,4 @@ class SKLBernoulliNB(Classifier):
         )
 
         cs.add([alpha, fit_prior])
+        return cs
