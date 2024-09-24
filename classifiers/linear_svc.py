@@ -73,3 +73,4 @@ class SKLLinearSVC(Classifier):
         cs.add_forbidden_clause(penalty_and_loss)
         cs.add_forbidden_clause(constant_penalty_and_loss)
         cs.add_forbidden_clause(penalty_and_dual)
+        return cs
