@@ -41,3 +41,4 @@ class SKLPolynomialFeatures(FeaturePreprocessor):
 
         cs = ConfigurationSpace(name=name, seed=seed)
         cs.add([degree, interaction_only, include_bias])
+        return cs
